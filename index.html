@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/58e9360fd1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <br>
+    <main class="container">
+
+        <div class="buttons">
+            
+            <button onClick="reset()" class="reset"></button>
+            <button onClick="right()" class="right">Right</button>
+            <button onClick="left()" class="left">Links</button>
+            <button onClick="up()" class="up">Up</button>
+            <button onClick="down()" class="down">Down</button>
+        </div>
+        
+            <input id="komut" type="text" value="" placeholder="RRDDDLUU...">
+            <button id="action" onClick="enter()">RUN</button>
+        
+        
+        <div class="spielfeld" id="area">
+            <div class="feld">
+                <div > <img id="ikon" src="icon.png" alt=""> </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
